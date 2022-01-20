@@ -1,0 +1,5 @@
+Quanto mais especifico mais importante no css
+
+propriedade: valor!important; -> Quebra a regra da especifidade
+
+none -> valores nulos

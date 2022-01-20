@@ -1,0 +1,33 @@
+/* Universal - Todos os elementos */
+* {
+    background: black;
+}
+
+/* Tag */
+body {
+    background: black;
+}
+
+/* Classe */
+.nome-classe {
+    background: black;
+}
+
+/* ID */
+#nome-id {
+    background: black;
+}
+
+/* Atributo */
+[type="text"] {
+    background: black;
+}
+
+[alt="Imagem de perfil"] {
+    background: black;
+}
+
+/* Pseudos -> Uma consição de seletor */
+:hover {
+    background: black;
+}

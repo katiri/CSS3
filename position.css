@@ -1,0 +1,40 @@
+/* Static -> Faz com que o espaço seja ocupado apenas por ele mesmo -> Padrão */
+.estatico {
+    position: static;
+}
+
+/* Fixed ->  Faz com o elemento fique posicionado fixamente em relação a janela de visualização */
+.fixado {
+    position: fixed;
+    /* top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px; */
+}
+
+/* Absolute -> Faz com o elemento fique posicionado fixamente em relação ao ancestral posicionado mais próximo */
+.absoluta {
+    position: absolute;
+    /* top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px; */
+}
+
+/* Relative -> Faz com o elemento fique posicionado em relação a sua própria posição normal */
+.relativo {
+    position: relative;
+    /* top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px; */
+}
+
+/* Sticky -> Faz com o elemento se comporte como relative e fixed em determinados momentos */
+.grudado {
+    position: sticky;
+    /* top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px; */
+}

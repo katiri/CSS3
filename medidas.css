@@ -1,0 +1,62 @@
+/* Medidas absolutas */
+.centimetros {
+    width: 10cm;
+}
+
+.milimetros {
+    width: 10mm;
+}
+
+.polegadas {
+    width: 10in;
+}
+
+.pixels {
+    width: 10px;
+}
+
+.pontos {
+    width: 10pt;
+}
+
+.paicas {
+    width: 10pc;
+}
+
+/* Medidas relativas */
+.porcentagem {
+    width: 10%;
+}
+
+.m { /* Tamanho de uma letra m do texto em questão */
+    width: 10em;
+}
+
+.rootm { /* Tamanho de uma letra m do texto principal da aplicação */
+    width: 10rem;
+}
+
+.unidadedocaractere { /* Unidade do caractere padrão da fonte */
+    width: 10ch;
+}
+
+.x { /* Mesma coisa do m mas com a letra x */
+    width: 10ex;
+}
+
+.janela { /* Não considera barra de rolagem e etc */
+    width: 10vw;
+    height: 10vh;
+}
+
+.janelamax { /* Relativo a qual é maior, largura ou altura */
+    width: 10vmax;
+}
+
+.janelamin { /* Relativo a qual é menor, largura ou altura */
+    width: 10vmin;
+}
+
+.fracoes { /* Frações da área disponível */
+    width: 2fr;
+}

@@ -1,0 +1,37 @@
+/* Por nome -> Em inglês, existem até 140 cores */
+.branco {
+    color: white;
+}
+
+.azul {
+    color: black;
+}
+
+/* RGB -> Cada casa da função vai de 0 a 255 */
+.vermelho {
+    /* color: rgb(red, green, blue); */
+    color: rgb(255, 0, 0); 
+}
+
+/* Hexadecimal -> #RRGGBB */
+.verde {
+    color: #00ff00;
+}
+
+/* HSL -> Hue, Saturation, Lightness */
+.branco {
+    color: hsl(0, 100%, 100%);
+}
+
+/* Transparência Alpha */
+.vermelho-transparente {
+    color: rgba(255, 0, 0, 0.5); /* Vai de 0 a 1 */
+}
+
+.verde-transparente {
+    color: #00ff0080;
+}
+
+.azul-transparente {
+    color: hsla(240, 100%, 50%, 0.5);
+}

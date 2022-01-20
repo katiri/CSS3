@@ -1,0 +1,26 @@
+/* Defnindo flex box */
+.display-flex{
+    display: flex;
+}
+
+/* Eixos principais -> Alinhamento dos itens */
+.linhas {
+    display: flex;
+    flex-direction: row;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Invertendo de onde as linhas e colunas começam */
+.linhas-reversas {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.colunas-reversas {
+    display: flex;
+    flex-direction: column-reverse;
+}

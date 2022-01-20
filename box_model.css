@@ -1,0 +1,63 @@
+/* Tamanho da caixa por conteúdo -> width e height definem o conteúdo e não o total */
+.conteudo {
+    box-sizing: content-box;
+    width: 100px;
+    height: 80px;
+    padding: 2px;
+    border-width: 1px;
+    margin: 3px;
+
+    /* Largura total dos objetos = 100 + (2 * 2) + (2 * 1) + (2 * 3) = 112 */
+}
+
+/* Tamanho da caixa por borda -> width e height definem o total */
+.borda {
+    box-sizing: border-box;
+    width: 100px;
+    height: 80px;
+    padding: 2px;
+    border-width: 1px;
+    margin: 3px;
+
+    /* Largura total dos objetos = 100 */
+}
+
+/* Direções */
+.direcoes {
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 4px;
+
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+}
+
+.todas-as-direcoes {
+    padding: 2px;
+    border-width: 1px;
+    margin: 3px;
+}
+
+.direcoes-por-espaco {
+    padding: 1px 2px 3px 4px;
+    border-width: 1px 2px 3px 4px;
+    margin: 1px 2px 3px 4px;
+
+    /* Ordem: Top Right Bottom Left */
+}
+
+.eixos {
+    padding: 1px 2px;
+    border-width: 1px 2px;
+    margin: 1px 2px;
+
+    /* Ordem: Y X */
+}
