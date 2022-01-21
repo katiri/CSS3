@@ -1,0 +1,18 @@
+/* Initial -> Força a reinicialização do valor padrão da propriedade */
+.inicial {
+    width: initial;
+}
+
+/* Inherit -> Herda o valor das mesmas propriedades do elemento pai (As declaradas nos descendentes) */
+.pai {
+    width: 100px;
+}
+
+.filho {
+    width: inherit; /* Todo elemento class filho dentro de class pai vai ter 100px de width */
+}
+
+/* Unset -> Desliga a propriedade */
+.desliga {
+    color: unset;
+}

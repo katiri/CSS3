@@ -1,0 +1,19 @@
+/* Descendente -> Um espaço */
+.ancestral .descendente {
+    background-color: white;
+}
+
+/* Filho direto */
+.pai > .filho {
+    background-color: blue;
+}
+
+/* Irmão adjacente -> irmao-1 recebe as caracteristicas se tiver um irmao-2 grudado abaixo a ele no mesmo nível */
+.irmao-1 + .irmao-2 {
+    background-color: brown;
+}
+
+/* Irmão geral -> irmao-4 recebe as caracteristicas se tiver um irmao-3 acima dele no mesmo nível */
+.irmao-3 ~ .irmao-4 {
+    background-color: cadetblue;
+}

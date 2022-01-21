@@ -1,0 +1,24 @@
+{
+	"css3": {
+		"prefix": "html-css:gerar",
+		"body": [
+			"<!DOCTYPE html>",
+            "<html lang=\"pt-bt\">",
+            "    <head>",
+            "        <meta charset=\"UTF-8\">",
+            "        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "        <title>Exemplo - $1</title>",
+            "        ",
+            "        <style>",
+            "            $2",
+            "        </style>",
+            "    </head>",
+            "    <body>",
+            "        $3",
+            "    </body>",
+            "</html>",
+		],
+		"description": "Gerar html com tag style"
+	}
+}

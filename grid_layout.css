@@ -1,0 +1,4 @@
+/* Display -> No elemento container */
+.container {
+    display: grid;
+}
