@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo - Padding</title>
+        
+        <style>
+            body {
+                margin: 0;
+            }
+
+            [id^=bloco] {
+                width: 100px;
+                height: 100px;
+                background-color: aqua;
+                box-sizing: border-box;
+                /* sem border-box, o valor do padding é adicionado a altura/largura do elemento */
+            }
+
+            #bloco-top {
+                padding-top: 5%;
+            }
+
+            #bloco-right {
+                position: fixed;
+                right: 0;
+                padding-right: 5%;
+            }
+
+            #bloco-bottom {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                padding-bottom: 5%;
+            }
+
+            #bloco-left {
+                padding-left: 5%;
+            }
+
+            #bloco-padding-all {
+                padding: 5%;
+            }
+
+            #bloco-padding-yx {
+                padding: 5px 15px;
+            }
+
+            #bloco-padding-trbl {
+                padding: 5px 10px 15px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bloco-top">
+            Margin top
+        </div>
+        <br>
+        <div id="bloco-right">
+            Margin right
+        </div>
+        <br>
+        <div id="bloco-bottom">
+            Margin bottom
+        </div>
+        <br>
+        <div id="bloco-left">
+            Margin left
+        </div>
+        <br>
+        <div id="bloco-padding-all">
+            Margin all
+        </div>
+        <br>
+        <div id="bloco-padding-yx">
+            Margin yx
+        </div>
+        <br>
+        <div id="bloco-padding-trbl">
+            Margin trbl
+        </div>
+    </body>
+</html>

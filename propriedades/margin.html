@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo - Margin</title>
+        
+        <style>
+            body {
+                margin: 0;
+            }
+
+            [id^=bloco] {
+                width: 100px;
+                height: 100px;
+                background-color: aqua;
+                display: inline-block;
+            }
+
+            #bloco-top {
+                margin-top: 5%;
+            }
+
+            #bloco-right {
+                position: fixed;
+                right: 0;
+                margin-right: 5%;
+            }
+
+            #bloco-bottom {
+                position: fixed;
+                bottom: 0;
+                margin-bottom: 5%;
+            }
+
+            #bloco-left {
+                margin-left: 5%;
+            }
+
+            #bloco-margin-all {
+                margin: 5%;
+            }
+
+            #bloco-margin-yx {
+                margin: 5% 15%;
+            }
+
+            #bloco-margin-trbl {
+                margin: 5% 10% 15% 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bloco-top">
+            Margin top
+        </div>
+
+        <div id="bloco-right">
+            Margin right
+        </div>
+
+        <div id="bloco-bottom">
+            Margin bottom
+        </div>
+
+        <div id="bloco-left">
+            Margin left
+        </div>
+
+        <div id="bloco-margin-all">
+            Margin all
+        </div>
+
+        <div id="bloco-margin-yx">
+            Margin yx
+        </div>
+
+        <div id="bloco-margin-trbl">
+            Margin trbl
+        </div>
+    </body>
+</html>

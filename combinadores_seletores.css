@@ -8,7 +8,7 @@
     background-color: blue;
 }
 
-/* Irmão adjacente -> irmao-1 recebe as caracteristicas se tiver um irmao-2 grudado abaixo a ele no mesmo nível */
+/* Irmão adjacente -> irmao-2 recebe as caracteristicas se tiver um irmao-1 grudado acima dele no mesmo nível */
 .irmao-1 + .irmao-2 {
     background-color: brown;
 }

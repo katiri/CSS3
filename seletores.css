@@ -28,6 +28,12 @@ body {
 }
 
 /* Pseudos -> Uma consição de seletor */
+/* Se o mouse passar por cima */
 :hover {
     background: black;
+}
+
+/* O primeiro elemento filho */
+:first-child {
+    background-color: blue;
 }
